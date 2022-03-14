@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js:student grade system</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid py-5" id="main-box">
+      <div class="container shadow-lg rounded-3" id="inside-box">
+        <div class="d-flex justify-content-center m-3 p-3">
+          <div class="brdrl">
+            <h1 class="text-uppercase fs-2 fw-bolder mx-3">
+              Student <br />
+              grade<br />
+              Calcy
+            </h1>
+          </div>
+          <div id="form" class="d-flex flex-column mx-5">
+            <input
+              class="bg-transparent border-bottom"
+              type="text"
+              id="wb-inp"
+              placeholder="Web Programming"
+            />
+            <input
+              class="bg-transparent border-bottom"
+              type="text"
+              id="ma-inp"
+              placeholder="Maths"
+            />
+            <input
+              class="bg-transparent border-bottom"
+              type="text"
+              id="co-inp"
+              placeholder="Computer"
+            />
+            <input
+              class="bg-transparent border-bottom"
+              type="text"
+              id="phy-inp"
+              placeholder="Physics"
+            />
+            <button class="btn btn-primary" id="btn1">Calculate</button>
+          </div>
+        </div>
+        <p id="result">ShowPercentage(%)</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
